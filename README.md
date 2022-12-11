@@ -1,8 +1,9 @@
 # What is this?
 
-This repository contains various bits and pieces meant to help contributors.
+This repository contains various bits and pieces meant to help contributors:
 
-For example, a [contributions-oriented wiki](https://github.com/rabbitmq/contribute/wiki).
+ * A [wiki for contributors](https://github.com/rabbitmq/contribute/wiki)
+ * A [base Docker image](./docker/) for development or build environment
 
 ## License
 
