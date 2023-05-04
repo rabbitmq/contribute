@@ -15,8 +15,8 @@ Shall we have separate documents to track other RabbitMQ protocols
 
 ## Implementation table for 0.9.1
 
-| *Client* | *Logs* | *Metrics* | *Traces* | *Context propagation* |
-|-------|-----|-----|-----|---|
+| *Client* | *Logs* | *Metrics* | *Traces* | *Context propagation* | *Logging Trace Info* |
+|-------|-----|-----|-----|---|---|
 | [Java](https://github.com/rabbitmq/rabbitmq-java-client/pull/1017)   |     |  OT   |  ActivitySource(in progress)   |   |
 | [.Net](https://github.com/rabbitmq/rabbitmq-dotnet-client/pull/1261)      |     |     |   Micrometer(in progress)  |  DistributedContextPropagator(in progress) uses W3C |
 | [Go](https://github.com/rabbitmq/amqp091-go/issues/43)      |     |     |  OT(in progress)   |  OT(in progress) (uses whatever configured) |
