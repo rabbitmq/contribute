@@ -25,3 +25,16 @@ Shall we have separate documents to track other RabbitMQ protocols
 - Bunny - Ruby - https://github.com/open-telemetry/opentelemetry-ruby-contrib/tree/main/instrumentation/bunny
 - Pika - Python - https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-pika
 - Amqplib - Javascript(Node) - https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/plugins/node/instrumentation-amqplib
+
+## WIP: Spans
+
+Here we amend OT semantic coventions and implement them for Rabbit. 
+Note: Semantic conventions are currently very fluid, below we list spans and thier attributes for current semconv version.
+We track upcoming version here https://github.com/open-telemetry/oteps/pull/220 and here https://github.com/open-telemetry/opentelemetry-specification/issues/3395.
+We also take into account existing 3d party integrations i.e. de-facto state of things in the community.
+
+### Publish
+
+### Receive
+
+### Process
