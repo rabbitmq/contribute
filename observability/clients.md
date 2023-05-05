@@ -20,3 +20,8 @@ Shall we have separate documents to track other RabbitMQ protocols
 | [Java](https://github.com/rabbitmq/rabbitmq-java-client/pull/1017)   |  SLF4J   |  Micrometer, OT   |  Micrometer(in progress)  |   |
 | [.Net](https://github.com/rabbitmq/rabbitmq-dotnet-client/pull/1261)      |     |     |    ActivitySource(in progress)  |  DistributedContextPropagator(in progress) uses W3C |
 | [Go](https://github.com/rabbitmq/amqp091-go/issues/43)      |     |     |  OT(in progress)   |  OT(in progress) (uses whatever configured) |
+
+## List of third-party OpenTelemetry integrations for popular clients
+- Bunny - Ruby - https://github.com/open-telemetry/opentelemetry-ruby-contrib/tree/main/instrumentation/bunny
+- Pika - Python - https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/instrumentation/opentelemetry-instrumentation-pika
+- Amqplib - Javascript(Node) - https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/plugins/node/instrumentation-amqplib
